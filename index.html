@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio của Mai Đức</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Portfolio - Mai Gia Duc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 900px;
+            max-width: 960px;
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
             background-color: #f5f5f5;
         }
         .card {
-            background: #fff;
-            padding: 20px;
+            background: #ffffff;
+            padding: 20px 24px;
             margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
         h1, h2 {
             margin-top: 0;
@@ -26,44 +26,147 @@
         .header {
             text-align: center;
         }
+        .header h1 {
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            color: #666666;
+            font-size: 14px;
+        }
+        .section-title {
+            border-left: 4px solid #3b82f6;
+            padding-left: 8px;
+        }
+        .info-list {
+            list-style: none;
+            padding-left: 0;
+        }
         .info-list li {
             margin-bottom: 4px;
+        }
+        .tag-list {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            background: #e8f0fe;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 13px;
         }
     </style>
 </head>
 <body>
+    <!-- HEADER -->
     <div class="card header">
-        <h1>MAI ĐỨC</h1>
-        <p>Student – Portfolio cá nhân</p>
+        <h1>MAI GIA DUC</h1>
+        <p><strong>Undergraduate Student in International Economics and Business – Foreign Trade University</strong></p>
+        <p class="subtitle">
+            Member of Young Research Club – Generation 31 ·
+            6 months of hands-on experience in the e-commerce sector
+        </p>
     </div>
 
+    <!-- ABOUT ME -->
     <div class="card">
-        <h2>Giới thiệu</h2>
-        <p>Viết 5–7 dòng giới thiệu bản thân ở đây: trường, lớp, ngành học, điểm mạnh, định hướng nghề nghiệp...</p>
+        <h2 class="section-title">About Me</h2>
+        <p>
+            My name is <strong>Mai Gia Duc</strong>, an undergraduate student majoring in
+            <strong>International Economics and Business</strong> at
+            <strong>Foreign Trade University</strong>. Alongside my academic studies, I actively
+            participate in student activities and research-oriented projects as a member of the
+            <strong>Young Research Club (Generation 31)</strong>. I have gained around
+            <strong>six months of working experience in the e-commerce industry</strong>, supporting store
+            operations and customer service on online marketplaces. I am interested in combining
+            my knowledge of international economics with practical experience in digital commerce
+            and cross-border business.
+        </p>
     </div>
 
+    <!-- PERSONAL INFORMATION -->
     <div class="card">
-        <h2>Thông tin cá nhân</h2>
+        <h2 class="section-title">Personal Information</h2>
         <ul class="info-list">
-            <li>MSSV: ...</li>
-            <li>Lớp: ...</li>
-            <li>Email: ...</li>
-            <li>Số điện thoại: ...</li>
+            <li><strong>Full name:</strong> Mai Gia Duc</li>
+            <li><strong>Major:</strong> International Economics and Business</li>
+            <li><strong>University:</strong> Foreign Trade University</li>
+            <li><strong>Student ID:</strong> ...</li>
+            <li><strong>Class:</strong> ...</li>
+            <li><strong>Email:</strong> ...</li>
+            <li><strong>Phone:</strong> ...</li>
         </ul>
     </div>
 
+    <!-- EDUCATION & ACTIVITIES -->
     <div class="card">
-        <h2>Dự án / Bài tập đã làm</h2>
-        <p>Mô tả 2–4 bài tập lớn, dự án nhóm, hoặc hoạt động mà thầy cô yêu cầu.</p>
+        <h2 class="section-title">Education & Activities</h2>
+
+        <p><strong>Foreign Trade University</strong> – Bachelor’s degree in International Economics and Business</p>
+        <ul>
+            <li>Studying core subjects in international economics, international trade, and business management.</li>
+            <li>Developing analytical thinking, academic writing, teamwork, and presentation skills through group assignments and class projects.</li>
+        </ul>
+
+        <p><strong>Young Research Club (YRC) – Generation 31</strong></p>
+        <ul>
+            <li>Participating in student research activities, including collecting information, processing data, and supporting research reports.</li>
+            <li>Improving teamwork, communication, and public-speaking skills through internal training sessions and presentations.</li>
+        </ul>
     </div>
 
+    <!-- WORK EXPERIENCE -->
     <div class="card">
-        <h2>Kỹ năng</h2>
+        <h2 class="section-title">Work Experience in E-commerce</h2>
+
+        <p><strong>Position:</strong> E-commerce Operations Assistant (Part-time, ~6 months)</p>
+        <ul>
+            <li>Supported product management on e-commerce platforms (updating basic product information, pricing, and images under supervision).</li>
+            <li>Handled customer messages and responded to common inquiries regarding products, orders, shipping, and return policies.</li>
+            <li>Coordinated with the team to track order status and helped solve simple issues such as stock shortages, address changes, and order cancellations.</li>
+            <li>Gained familiarity with a professional working environment and built a habit of meeting deadlines, taking responsibility, and asking for guidance when needed.</li>
+        </ul>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="card">
+        <h2 class="section-title">Skills</h2>
+        <ul class="tag-list">
+            <li class="tag">Basic Microsoft Office (Word, Excel, PowerPoint)</li>
+            <li class="tag">Customer communication & basic customer service</li>
+            <li class="tag">Teamwork and collaboration</li>
+            <li class="tag">Logical and analytical thinking</li>
+            <li class="tag">Time management and task prioritization</li>
+        </ul>
+    </div>
+
+    <!-- GOALS & CAREER ORIENTATION -->
+    <div class="card">
+        <h2 class="section-title">Goals & Career Orientation</h2>
+        <p>
+            In the coming years, I aim to strengthen my foundation in international economics,
+            trade, and business while gaining more practical experience in areas such as
+            e-commerce, international business, and import–export operations. I hope to take
+            part in internships, student projects, and part-time jobs that allow me to apply
+            classroom knowledge to real business situations and gradually build a clear career
+            path after graduation.
+        </p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="card">
+        <h2 class="section-title">Contact</h2>
+        <p>
+            If you would like to know more about my background or activities, I am happy to
+            connect via email or phone.
+        </p>
         <ul class="info-list">
-            <li>Kỹ năng 1</li>
-            <li>Kỹ năng 2</li>
-            <li>Kỹ năng 3</li>
+            <li><strong>Email:</strong> ...</li>
+            <li><strong>Phone:</strong> ...</li>
         </ul>
     </div>
 </body>
 </html>
+
